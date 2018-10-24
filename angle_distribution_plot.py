@@ -95,7 +95,7 @@ fig.tight_layout()
 save = False
 # 保存先のpathとファイル名を指定
 save_path = ".//"
-save_file_name = "102418 061218 actin orientation during stretch"
+save_file_name = "20181024 angle_distribution_plot_ex"
 # saveするなら以下で保存 (ex. png and svg)
 if save==True:
     plt.savefig(save_path + save_file_name + ".png")
