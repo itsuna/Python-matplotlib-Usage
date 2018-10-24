@@ -79,7 +79,7 @@ axes[0] = plot_angular_distribution(axes[0], angle_dist_A, angle_list_A, 22, 10)
 
 # df_Bからangular_distributionとangle_listを計算する
 angle_dist_B, angle_list_B = create_angular_frequency_distribution_table(df_B, 9)
-# 1行1列目のグラフにプロット
+# 1行2列目のグラフにプロット
 axes[1] = plot_angular_distribution(axes[1], angle_dist_B, angle_list_B, 22, 10)
 
 for ax, name in zip(axes, ["Sample A", "Sample B"]):
